@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34601.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabAD_Katas", "LabAD_Katas.csproj", "{FB3B22F0-1A86-4FA5-BF5C-79E9A41E40CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicaNegocio", "..\LogicaNegocio\LogicaNegocio.csproj", "{3BFF11DA-B8F7-4509-9468-CEBB707971FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB3B22F0-1A86-4FA5-BF5C-79E9A41E40CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB3B22F0-1A86-4FA5-BF5C-79E9A41E40CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB3B22F0-1A86-4FA5-BF5C-79E9A41E40CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB3B22F0-1A86-4FA5-BF5C-79E9A41E40CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BFF11DA-B8F7-4509-9468-CEBB707971FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BFF11DA-B8F7-4509-9468-CEBB707971FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BFF11DA-B8F7-4509-9468-CEBB707971FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BFF11DA-B8F7-4509-9468-CEBB707971FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11D4179E-4E22-4C1C-BC4E-506315F5FFFB}
+	EndGlobalSection
+EndGlobal

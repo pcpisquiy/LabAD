@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="LabAD_Katas.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="CadenaConexion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">33222234414453402D223E7F5B540F50261D22304B5551402B0C14715F434145286323305F55571A27223D644251515F2139702C5B4A5709707D696909454151366D393B0F4051442D3E212A5B496D6715011C3055595C6B76762028560D440D2E2A663054095A5A7F29312B5310415B313F333A0F5450643622293A51445D7500633D2C41415E1A37223D3A571E515B2976203A40435B47306D233A5145405D303470365C565D09022C3C2C570B5B5A2D39393E5E105155302C3C30550D5656143F3F265753465B05096B0B404541401728222957427151363939395B5353402170042D4755</Value>
+    </Setting>
+    <Setting Name="Servidor" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">202F002D5D4957573022111B1C5D414735217E2C5D5D57516A2E3F32</Value>
+    </Setting>
+    <Setting Name="BaseDatos" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">202F002D5D4957573022111B</Value>
+    </Setting>
+    <Setting Name="Usuario" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">342E20364141475D3D12030E7E7C5D532D230F6D</Value>
+    </Setting>
+    <Setting Name="Password" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">32743A38045F540D2C23</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
