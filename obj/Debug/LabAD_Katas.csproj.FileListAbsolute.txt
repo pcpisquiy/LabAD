@@ -77,3 +77,5 @@ D:\Programaciones\PCPP\Web\C#\LabAD_Katas\obj\Debug\LabAD_Katas.csproj.CoreCompi
 D:\Programaciones\PCPP\Web\C#\LabAD_Katas\obj\Debug\LabAD_Katas.csproj.CopyComplete
 D:\Programaciones\PCPP\Web\C#\LabAD_Katas\obj\Debug\LabAD_Katas.dll
 D:\Programaciones\PCPP\Web\C#\LabAD_Katas\obj\Debug\LabAD_Katas.pdb
+D:\Programaciones\PCPP\Web\C#\LabAD_Katas\bin\LogicaNegocio.dll
+D:\Programaciones\PCPP\Web\C#\LabAD_Katas\bin\LogicaNegocio.pdb

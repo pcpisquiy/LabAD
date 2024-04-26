@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "InsertarPaciente";
+}
+
+<form class="row g-3" action="/home/InsertarPacientes" method="post">
+    <div class="col-md-6">
+        <label for="txtnombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="Nombre" name="Nombre">
+    </div>
+    <div class="col-md-6">
+        <label for="txtEdad" class="form-label">Edad</label>
+        <input type="number" class="form-control" id="Edad" name="Edad">
+    </div>
+    <div class="col-12">
+        <label for="txtTel" class="form-label">Teléfono</label>
+        <input type="number" class="form-control" id="Telefono" name="Telefono">
+    </div>
+
+    <div class="col-12">
+        <button type="submit"  class="btn btn-primary">Sign in</button>
+    </div>
+</form>

@@ -1,0 +1,28 @@
+﻿@using LogicaNegocio.DTO;
+@using System.Collections.Generic;
+
+@{
+    ViewBag.Title = "ListarPacientes";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">IdPaciente</th>
+            <th scope="col">Nombre Paciente</th>
+            <th scope="col">Edad</th>
+            <th scope="col">Telefóno</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ListaPersonas in ViewData["ListaPaciente"] as List<PacienteDTO>)
+        {
+            <tr>
+                <td>@ListaPersonas.IdPaciente</td>
+                <td>@ListaPersonas.Nombre_Paciente</td>
+                <td>@ListaPersonas.Edad</td>
+                <td>@ListaPersonas.Telefono</td>
+            </tr>
+        }
+    </tbody>
+</table>
