@@ -1,0 +1,6 @@
+D:\Programaciones\PCPP\Web\C#\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+D:\Programaciones\PCPP\Web\C#\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+D:\Programaciones\PCPP\Web\C#\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.AssemblyReference.cache
+D:\Programaciones\PCPP\Web\C#\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CoreCompileInputs.cache
+D:\Programaciones\PCPP\Web\C#\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+D:\Programaciones\PCPP\Web\C#\LogicaNegocio\obj\Debug\LogicaNegocio.pdb
