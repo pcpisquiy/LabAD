@@ -32,5 +32,13 @@ namespace LabAD_Katas.Controllers
             return View();
         }
 
+        [HttpPost]
+        public ActionResult ConsultaPaciente(int id)
+        {
+            //GestorClinica gestorClinica = new GestorClinica(FuncionesAuxiliares.Instance.DesEncripta(Properties.Settings.Default.CadenaConexion, "DMP_2024"));
+            //gestorClinica.InsertarPaciente(new PacienteDTO() { Nombre_Paciente = Nombre, Edad = Edad, Telefono = Telefono });
+            return View();
+        }
+
     }
 }

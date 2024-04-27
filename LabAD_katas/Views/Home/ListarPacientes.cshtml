@@ -1,8 +1,10 @@
 ﻿@using LogicaNegocio.DTO;
 @using System.Collections.Generic;
+@using System.IO;
 
 @{
     ViewBag.Title = "ListarPacientes";
+    ViewBag.Log += $"'\n'Listado de pacientes - {DateTime.Now}";
 }
 
 <table class="table">
