@@ -10,5 +10,6 @@ public class SucesoDTO
     {
         public int idSuceso { get; set; }
         public string suceso { get; set; }
+        public DateTime Fecha_Suceso { get; set; }
     }
 }

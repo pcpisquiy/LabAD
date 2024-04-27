@@ -201,6 +201,7 @@
     <Content Include="Views\Home\InsertarPaciente.cshtml" />
     <Content Include="Views\Home\InsertarPacientes.cshtml" />
     <Content Include="Views\Home\ConsultaPaciente.cshtml" />
+    <Content Include="Views\Home\ListaSuceso.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

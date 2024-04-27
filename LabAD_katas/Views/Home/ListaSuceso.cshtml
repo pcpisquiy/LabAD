@@ -1,0 +1,27 @@
+﻿@using LogicaNegocio.DTO;
+@using System.Collections.Generic;
+@{
+    ViewBag.Title = "ListaSuceso";
+}
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Id Suceso</th>
+            <th scope="col">Suceso</th>
+            <th scope="col">Fecha</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ListaSuceso in ViewData["ListaSuceso"] as List<SucesoDTO>)
+        {
+            <tr>
+                <td>@ListaSuceso.idSuceso</td>
+                <td>@ListaSuceso.suceso</td>
+                <td>@ListaSuceso.Fecha_Suceso</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

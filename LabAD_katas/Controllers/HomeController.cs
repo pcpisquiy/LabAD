@@ -39,6 +39,13 @@ namespace LabAD_Katas.Controllers
             ViewData["DatosPaciente"] = gestorClinica.ListaPacientes(id)[0];
             return View();
         }
+        [HttpGet]
+        public ActionResult ListaSuceso()
+        {
+            GestorClinica gestorClinica = new GestorClinica(FuncionesAuxiliares.Instance.DesEncripta(Properties.Settings.Default.CadenaConexion, "DMP_2024"));
+            ViewData["ListaSuceso"] = gestorClinica.ListarSuceso();
+            return View();
+        }
 
     }
 }

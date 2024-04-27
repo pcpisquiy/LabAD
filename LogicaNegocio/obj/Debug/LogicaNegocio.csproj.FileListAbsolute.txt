@@ -10,3 +10,9 @@ C:\Users\jmmr1\OneDrive\Documentos\Software Engeneering\2024\AyD\LabAD\LogicaNeg
 C:\Users\jmmr1\OneDrive\Documentos\Software Engeneering\2024\AyD\LabAD\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CoreCompileInputs.cache
 C:\Users\jmmr1\OneDrive\Documentos\Software Engeneering\2024\AyD\LabAD\LogicaNegocio\obj\Debug\LogicaNegocio.dll
 C:\Users\jmmr1\OneDrive\Documentos\Software Engeneering\2024\AyD\LabAD\LogicaNegocio\obj\Debug\LogicaNegocio.pdb
+D:\Programaciones\PCPP\Web\C#\LabAD\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+D:\Programaciones\PCPP\Web\C#\LabAD\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+D:\Programaciones\PCPP\Web\C#\LabAD\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.AssemblyReference.cache
+D:\Programaciones\PCPP\Web\C#\LabAD\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CoreCompileInputs.cache
+D:\Programaciones\PCPP\Web\C#\LabAD\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+D:\Programaciones\PCPP\Web\C#\LabAD\LogicaNegocio\obj\Debug\LogicaNegocio.pdb

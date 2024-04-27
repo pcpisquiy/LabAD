@@ -14,6 +14,7 @@ namespace LogicaNegocio.Sesion
     {
         SqlConnection sqlcnn = null;
         Paciente _Paciente = null;
+        Suceso _Suceso = null;
         public GestorClinica(string _sqlcnn) {
             sqlcnn = new SqlConnection(_sqlcnn);
         }
@@ -23,6 +24,8 @@ namespace LogicaNegocio.Sesion
             {
                 sqlcnn.Open();
                 if (_Paciente == null) { _Paciente = new Paciente(sqlcnn); }
+                if (_Suceso == null) { _Suceso = new Suceso(sqlcnn); }
+                _Suceso.InsertarSuceso(new SucesoDTO { suceso = "Lista del paciente con el id: " + id.ToString() });
                 return _Paciente.ListarPacientes(id);
             }
             catch (Exception ex)
@@ -41,7 +44,32 @@ namespace LogicaNegocio.Sesion
             {
                 sqlcnn.Open();
                 if (_Paciente == null) { _Paciente = new Paciente(sqlcnn); }
+
+                if (_Suceso == null) { _Suceso = new Suceso(sqlcnn); }
+                _Suceso.InsertarSuceso(new SucesoDTO { suceso = "Insertar paciente con el nombre: " + pacienteDTO.Nombre_Paciente });
                 _Paciente.InsertarPaciente(pacienteDTO);
+            }
+            catch (Exception ex)
+            {
+                throw (ex);
+            }
+            finally
+            {
+                if (sqlcnn.State != ConnectionState.Closed)
+                {
+                    sqlcnn.Close();
+                }
+            }
+        }
+
+        public List<SucesoDTO> ListarSuceso()
+        {
+            try
+            {
+                sqlcnn.Open();
+                if (_Suceso == null) { _Suceso = new Suceso(sqlcnn); }
+                _Suceso.InsertarSuceso(new SucesoDTO { suceso = "Lista de los sucesos"});
+                return _Suceso.ListarSuceso();
             }
             catch (Exception ex)
             {
