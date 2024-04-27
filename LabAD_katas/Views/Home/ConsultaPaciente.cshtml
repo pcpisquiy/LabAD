@@ -1,6 +1,24 @@
-﻿
+﻿@using LogicaNegocio.DTO
+
 @{
     ViewBag.Title = "ConsultaPaciente";
 }
+<br />
+<center><h2>ConsultaPaciente</h2></center>
 
-<h2>ConsultaPaciente</h2>
+
+@{
+    PacienteDTO paciente = (PacienteDTO)ViewData["DatosPaciente"];
+
+}
+
+<center>
+    <br /><br />
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">@paciente.Nombre_Paciente</h5>
+            <p class="card-text">Teléfono: @paciente.Telefono</p>
+            <p class="card-text">Edad: @paciente.Edad</p>
+        </div>
+    </div>
+</center>

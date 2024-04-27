@@ -542,7 +542,8 @@ legend + * {
   height: auto;
 }
 
-[type=search] {
+[type=
+    ] {
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
