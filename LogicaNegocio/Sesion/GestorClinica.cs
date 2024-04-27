@@ -18,12 +18,12 @@ namespace LogicaNegocio.Sesion
             sqlcnn = new SqlConnection(_sqlcnn);
         }
 
-        public List<PacienteDTO> ListaPacientes() {
+        public List<PacienteDTO> ListaPacientes(int? id) {
             try
             {
                 sqlcnn.Open();
                 if (_Paciente == null) { _Paciente = new Paciente(sqlcnn); }
-                return _Paciente.ListarPacientes();
+                return _Paciente.ListarPacientes(id);
             }
             catch (Exception ex)
             {

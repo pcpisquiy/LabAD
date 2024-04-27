@@ -18,7 +18,7 @@ namespace LabAD_Katas.Controllers
         public ActionResult ListarPacientes()
         {
             GestorClinica gestorClinica = new GestorClinica(FuncionesAuxiliares.Instance.DesEncripta(Properties.Settings.Default.CadenaConexion,"DMP_2024"));
-            ViewData["ListaPaciente"] = gestorClinica.ListaPacientes();
+            ViewData["ListaPaciente"] = gestorClinica.ListaPacientes(null);
             return View();
         }
         public ActionResult InsertarPaciente() {
@@ -35,8 +35,8 @@ namespace LabAD_Katas.Controllers
         [HttpPost]
         public ActionResult ConsultaPaciente(int id)
         {
-            //GestorClinica gestorClinica = new GestorClinica(FuncionesAuxiliares.Instance.DesEncripta(Properties.Settings.Default.CadenaConexion, "DMP_2024"));
-            //gestorClinica.InsertarPaciente(new PacienteDTO() { Nombre_Paciente = Nombre, Edad = Edad, Telefono = Telefono });
+            GestorClinica gestorClinica = new GestorClinica(FuncionesAuxiliares.Instance.DesEncripta(Properties.Settings.Default.CadenaConexion, "DMP_2024"));
+            ViewData["DatosPaciente"] = gestorClinica.ListaPacientes(id)[0];
             return View();
         }
 

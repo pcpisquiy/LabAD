@@ -12,10 +12,11 @@ namespace LogicaNegocio.Entidad
     {
         private SqlConnection sqlcnn;
         public Paciente(SqlConnection _sqlcnn) { sqlcnn = _sqlcnn; }
-        public List<PacienteDTO> ListarPacientes() {
+        public List<PacienteDTO> ListarPacientes(int? id) {
             string sql = "SP_ListarPaciente";
             SqlCommand cmd = new SqlCommand(sql, sqlcnn);
             cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Add(new SqlParameter("@Id", id));
             return CargarReader(cmd.ExecuteReader());
         }
 
